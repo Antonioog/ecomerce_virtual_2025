@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 </head>
 
@@ -25,113 +35,108 @@
     </nav>
     <div class="hero"></div>
 
-    <section>
-        <h2>Categorías de Productos</h2>
-        <div>
+    <section class="contenedor categorias"">
+        <h2 class="text-center">Categorías de Productos</h2>
+        <div class=" listado-categorias contenedor">
+        <div class="categoria contenedor">
             <img src="img/categoria1.jpg" alt="imagen de categoria1">
             <a href="#">Oficina</a>
         </div>
 
-        <div>
+        <div class="categoria contenedor">
             <img src="img/categoria2.jpg" alt="imagen de categoria1">
             <a href="#">Hogar</a>
         </div>
 
-        <div>
+        <div class="categoria contenedor">
             <img src="img/categoria3.jpg" alt="imagen de categoria1">
             <a href="#">Cocina</a>
         </div>
+        </div>
+
     </section>
 
     <section class="sobre-nosotros">
-        <div>
-            <h2>Sobre Nosotros</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, in quis. Nesciunt molestiae quasi
-                doloremque laborum esse unde fuga sint, atque distinctio qui. Quod aliquid voluptatibus nobis voluptates
-                odio iste!</p>
+        <div class="contenedor sobre-nosotros-grid">
+            <div class="texto-nosotros">
+                <h2>Sobre Nosotros</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, in quis. Nesciunt molestiae quasi
+                    doloremque laborum esse unde fuga sint, atque distinctio qui. Quod aliquid voluptatibus nobis
+                    voluptates
+                    odio iste!</p>
+            </div>
+
         </div>
     </section>
 
-    <main>
+    <main class="contenido-principal contenedor">
 
-        <h2>Nuestros Productos</h2>
+        <h2 class="text-center">Nuestros Productos</h2>
 
-        <div>
-            <div>
+        <div class="listado-productos ">
+            <div class="producto">
                 <img src="img/producto1.jpg" alt="">
-                <div>
+                <div class="texto-producto">
                     <h3>Producto 1</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamus, ab
-                        distinctio labore asperiores. Doloribus officiis quasi voluptatum numquam, tenetur, minus
-                        accusamus suscipit porro enim ab optio iusto rem!</p>
-                        <p>$1,000.00</p>
+                    <p>sLorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamu</p>
+                    <p class="precio">$1,000.00</p>
 
-                        <a href="#">Agregar al carrito</a>
+                    <a href="#">Agregar al carrito</a>
                 </div>
             </div>
 
-             <div>
+            <div class="producto">
                 <img src="img/producto2.jpg" alt="">
-                <div>
+                <div class="texto-producto">
                     <h3>Producto 2</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamus, ab
-                        distinctio labore asperiores. Doloribus officiis quasi voluptatum numquam, tenetur, minus
-                        accusamus suscipit porro enim ab optio iusto rem!</p>
-                        <p>$1,000.00</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamu</p>
+                    <p class="precio">$1,000.00</p>
 
-                        <a href="#">Agregar al carrito</a>
+                    <a href="#">Agregar al carrito</a>
                 </div>
             </div>
 
-             <div>
+            <div class="producto">
                 <img src="img/producto3.jpg" alt="">
-                <div>
+                <div class="texto-producto">
                     <h3>Producto 3</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamus, ab
-                        distinctio labore asperiores. Doloribus officiis quasi voluptatum numquam, tenetur, minus
-                        accusamus suscipit porro enim ab optio iusto rem!</p>
-                        <p>$1,000.00</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamu!</p>
+                    <p class="precio">$1,000.00</p>
 
-                        <a href="#">Agregar al carrito</a>
+                    <a href="#">Agregar al carrito</a>
                 </div>
             </div>
 
-             <div>
+            <div class="producto">
                 <img src="img/producto4.jpg" alt="">
-                <div>
+                <div class="texto-producto">
                     <h3>Producto 4</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamus, ab
-                        distinctio labore asperiores. Doloribus officiis quasi voluptatum numquam, tenetur, minus
-                        accusamus suscipit porro enim ab optio iusto rem!</p>
-                        <p>$1,000.00</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamu</p>
+                    <p class="precio">$1,000.00</p>
 
-                        <a href="#">Agregar al carrito</a>
+                    <a href="#">Agregar al carrito</a>
                 </div>
             </div>
 
-             <div>
+            <div class="producto">
                 <img src="img/producto5.jpg" alt="">
-                <div>
+                <div class="texto-producto">
                     <h3>Producto 5</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamus, ab
-                        distinctio labore asperiores. Doloribus officiis quasi voluptatum numquam, tenetur, minus
-                        accusamus suscipit porro enim ab optio iusto rem!</p>
-                        <p>$1,000.00</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamu</p>
+                    <p class="precio">$1,000.00</p>
 
-                        <a href="#">Agregar al carrito</a>
+                    <a href="#">Agregar al carrito</a>
                 </div>
             </div>
 
-             <div>
+            <div class="producto">
                 <img src="img/producto6.jpg" alt="">
-                <div>
+                <div class="texto-producto">
                     <h3>Producto 6</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamus, ab
-                        distinctio labore asperiores. Doloribus officiis quasi voluptatum numquam, tenetur, minus
-                        accusamus suscipit porro enim ab optio iusto rem!</p>
-                        <p>$1,000.00</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos repellat accusamu</p>
+                    <p class="precio">$1,000.00</p>
 
-                        <a href="#">Agregar al carrito</a>
+                    <a href="#">Agregar al carrito</a>
                 </div>
             </div>
         </div>
@@ -140,8 +145,9 @@
 
 
 
-    <footer>
-        <div>
+    <footer class="footer">
+        <div class="footer-contenido ">
+            <div>
             <h3>Categorías</h3>
             <nav>
                 <a href="#">Cocina</a>
@@ -171,11 +177,13 @@
                 <a href="#">Preguntas Frecuentes</a>
                 <a href="#">Ayuda en Línea</a>
                 <a href="#">Confianza y Seguridad</a>
-               
+
 
             </nav>
         </div>
 
+        </div>
+        
         <p>Todos los derechos reservados, TiendaMuebles</p>
     </footer>
 
